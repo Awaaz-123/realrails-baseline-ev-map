@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-print("hello world")
 API_KEY = os.getenv("OCM_API_KEY")
 
 if not API_KEY:
